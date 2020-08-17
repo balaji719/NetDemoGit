@@ -33,5 +33,11 @@ namespace NetDemoGit.Controllers
 
             return View();
         }
+        public ActionResult Sample()
+        {
+            ViewBag.Message = "My Sample";
+
+            return View();
+        }
     }
 }
